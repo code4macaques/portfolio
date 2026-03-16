@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   // Set base path for GitHub Pages deployment.
   // Change this to your repo name if deploying to https://<user>.github.io/<repo>/
-  base: "/",
+  base: "/portfolio/",
 });
