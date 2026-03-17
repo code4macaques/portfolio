@@ -10,7 +10,6 @@
  */
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import GoogleAnalytics from "./components/GoogleAnalytics";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
@@ -27,7 +26,6 @@ export default function App() {
 
   return (
     <LanguageProvider>
-      <GoogleAnalytics />
       <div className="bg-background-light font-sans text-text-dark transition-colors duration-300 dark:bg-dark-bg dark:text-dark-text">
         {/* Sticky navigation bar */}
         <Navbar theme={theme} onToggleTheme={toggleTheme} />
