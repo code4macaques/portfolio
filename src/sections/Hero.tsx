@@ -88,7 +88,7 @@ export default function Hero() {
           className="flex flex-wrap justify-center gap-4"
         >
           <a
-            href="/cv_alejandro_tirado.pdf"
+            href={`${import.meta.env.BASE_URL}cv_alejandro_tirado.pdf`}
             download="cv_alejandro_tirado.pdf"
             className="flex items-center gap-2 rounded-xl bg-primary px-8 py-4 text-lg font-bold text-white shadow-lg shadow-blue-200 transition-all hover:-translate-y-0.5 hover:shadow-blue-300 dark:shadow-blue-900/30 dark:hover:shadow-blue-800/40"
           >
